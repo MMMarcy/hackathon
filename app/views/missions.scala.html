@@ -1,4 +1,5 @@
-@main("Welcome to Play Framework") {
+@(color: String)
+@main(color) {
 <div class="container">
 
   <div class="row">
@@ -17,40 +18,182 @@
 
   <div class="row">
     <div class="col-xs-12">
+      <div class="panel-group" id="accordion">
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                <span class="glyphicon glyphicon-cutlery"></span>
+                Time mission! Eat breakfast between 07.00-08.00
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-xs-5">GOAL:</div>
+                <div class="col-xs-7">Eat the healty food before aliens arrive</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">TIME FRAME:</div>
+                <div class="col-xs-7">07.00 - 08.00</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">EXPERIENCE GAINED:</div>
+                <div class="col-xs-7">100XP POINTS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                <span class="glyphicon glyphicon-cutlery"></span>
+                Aliens are attacking!! Escape for 1KM to be safe
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-xs-5">GOAL:</div>
+                <div class="col-xs-7">Escape the attack area by walking or running!</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">TIME FRAME:</div>
+                <div class="col-xs-7">30 Minutes</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">EXPERIENCE GAINED:</div>
+                <div class="col-xs-7">50XP POINTS</div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                <span class="glyphicon glyphicon-cutlery"></span>
+                Time mission! Eat luch before it's too late
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-xs-5">GOAL:</div>
+                <div class="col-xs-7">Escape the attack area by walking or running!</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">TIME FRAME:</div>
+                <div class="col-xs-7">12.00 - 13.00</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">EXPERIENCE GAINED:</div>
+                <div class="col-xs-7">50XP POINTS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                <span class="glyphicon glyphicon-cutlery"></span>
+                Time mission! Eat breakfast between 07.00-08.00
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-xs-5">GOAL:</div>
+                <div class="col-xs-7">Escape the attack area by walking or running!</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">TIME FRAME:</div>
+                <div class="col-xs-7">30 Minutes</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">EXPERIENCE GAINED:</div>
+                <div class="col-xs-7">50XP POINTS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                <span class="glyphicon glyphicon-cutlery"></span>
+                Time mission! Eat lunch
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFive" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-xs-5">GOAL:</div>
+                <div class="col-xs-7">Escape the attack area by walking or running!</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">TIME FRAME:</div>
+                <div class="col-xs-7">30 Minutes</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-5">EXPERIENCE GAINED:</div>
+                <div class="col-xs-7">50XP POINTS</div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+      </div>
+      <!--
       <ul class="nav nav-pills nav-stacked">
-        <li>
-          <a href="@routes.MainController.mission1()">
-            <span class="glyphicon glyphicon-cutlery"></span>
-            Time mission! Eat breakfast between 07.00-08.00
-          </a>
-        </li>
-        <li>
-          <a href="@routes.MainController.map()">
-            <span class="glyphicon glyphicon-globe"></span>
-            Walking mission! Walk 1 km
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="glyphicon glyphicon-camera"></span>
-            Take picture mission! Find a tree and take a picture of it
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="glyphicon glyphicon-cutlery"></span>
-            Time mission! Eat lunch between 12.00-13.00
-          </a>
-        </li>
-        <li>
-          <a href="@routes.MainController.mapP2P()">
-            <span class="glyphicon glyphicon-globe"></span>
-            Navigation mission! Go from A to B
-          </a>
-        </li>
-      </ul>
-    </div>
+      <li>
+        <a href="@routes.MainController.mission1(color)">
+          <span class="glyphicon glyphicon-cutlery"></span>
+          Time mission! Eat breakfast between 07.00-08.00
+        </a>
+      </li>
+      <li>
+        <a href="@routes.MainController.map(color)">
+          <span class="glyphicon glyphicon-globe"></span>
+          Walking mission! Walk 1 km
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="glyphicon glyphicon-camera"></span>
+          Take picture mission! Find a tree and take a picture of it
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="glyphicon glyphicon-cutlery"></span>
+          Time mission! Eat lunch between 12.00-13.00
+        </a>
+      </li>
+      <li>
+        <a href="@routes.MainController.mapP2P(color)">
+          <span class="glyphicon glyphicon-globe"></span>
+          Navigation mission! Go from A to B
+        </a>
+      </li>
+    </ul>
+    -->
   </div>
+</div>
 
 </div>
 }

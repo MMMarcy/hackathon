@@ -1,9 +1,9 @@
-@(title: String)(content: Html)
+@(color: String)(content: Html)
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@title</title>
+    <title>test</title>
     <link rel='shortcut icon' type='image/png' href='@routes.Assets.at("images/favicon.png")'>
     <link rel='stylesheet' href='@routes.Assets.at("css/bootstrap.min.css")'>
     <link rel='stylesheet' href='@routes.Assets.at("stylesheets/home.css")'>
@@ -16,6 +16,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <style type="text/css">
+        body{
+            @{
+
+                if(color.toLowerCase == "green"){
+                    """ background: #7ace61; /* Old browsers */
+                        background: -moz-radial-gradient(center, ellipse cover,  #7ace61 0%, #97cc80 38%, #78ce6d 60%, #63b747 85%); /* FF3.6+ */
+                        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7ace61), color-stop(38%,#97cc80), color-stop(60%,#78ce6d), color-stop(85%,#63b747)); /* Chrome,Safari4+ */
+                        background: -webkit-radial-gradient(center, ellipse cover,  #7ace61 0%,#97cc80 38%,#78ce6d 60%,#63b747 85%); /* Chrome10+,Safari5.1+ */
+                        background: -o-radial-gradient(center, ellipse cover,  #7ace61 0%,#97cc80 38%,#78ce6d 60%,#63b747 85%); /* Opera 12+ */
+                        background: -ms-radial-gradient(center, ellipse cover,  #7ace61 0%,#97cc80 38%,#78ce6d 60%,#63b747 85%); /* IE10+ */
+                        background: radial-gradient(ellipse at center,  #7ace61 0%,#97cc80 38%,#78ce6d 60%,#63b747 85%); /* W3C */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ace61', endColorstr='#63b747',GradientType=1 );
+                        """
+                } else if (color.toLowerCase == "yellow") {
+                    """ background: #fefcea; /* Old browsers */
+                        background: -moz-radial-gradient(center, ellipse cover,  #fefcea 0%, #f1da36 100%); /* FF3.6+ */
+                        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fefcea), color-stop(100%,#f1da36)); /* Chrome,Safari4+ */
+                        background: -webkit-radial-gradient(center, ellipse cover,  #fefcea 0%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
+                        background: -o-radial-gradient(center, ellipse cover,  #fefcea 0%,#f1da36 100%); /* Opera 12+ */
+                        background: -ms-radial-gradient(center, ellipse cover,  #fefcea 0%,#f1da36 100%); /* IE10+ */
+                        background: radial-gradient(ellipse at center,  #fefcea 0%,#f1da36 100%); /* W3C */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+                    """
+                } else {
+                    """background: #fefcea; /* Old browsers */
+                        background: -moz-radial-gradient(center, ellipse cover,  #fefcea 0%, #d83131 100%); /* FF3.6+ */
+                        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fefcea), color-stop(100%,#d83131)); /* Chrome,Safari4+ */
+                        background: -webkit-radial-gradient(center, ellipse cover,  #fefcea 0%,#d83131 100%); /* Chrome10+,Safari5.1+ */
+                        background: -o-radial-gradient(center, ellipse cover,  #fefcea 0%,#d83131 100%); /* Opera 12+ */
+                        background: -ms-radial-gradient(center, ellipse cover,  #fefcea 0%,#d83131 100%); /* IE10+ */
+                        background: radial-gradient(ellipse at center,  #fefcea 0%,#d83131 100%); /* W3C */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#d83131',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+                    """
+                }
+            }
+        }
+    </style>
 </head>
 <body>
     @content
