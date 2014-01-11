@@ -7,6 +7,7 @@ GET     /missions/:color                   	controllers.MainController.missions(
 GET		/map/:color							controllers.MainController.map(color)
 GET		/mapp2p/:color						controllers.MainController.mapP2P(color)
 GET		/mission/1/:color					controllers.MainController.mission1(color)
+GET		/settings/:color 					controllers.MainController.settings(color)
 
 
 # Map static resources from the /public folder to the /assets URL path

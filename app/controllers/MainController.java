@@ -26,4 +26,8 @@ public class MainController extends Controller {
     public static Result mission1(String color){
     	return ok(views.html.mission1.render(color));
     }
+
+    public static Result settings(String color){
+    	return ok(views.html.settings.render(color));
+    }
 }
