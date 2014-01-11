@@ -1,0 +1,25 @@
+BODY{
+background: #0d426a url(winter2013.jpg) top center repeat-x;
+}
+.wwLogoAnk {
+	background:transparent url(ww_logo_winter2013.png) 0 0 no-repeat;
+}
+
+.OpaqueAdBanner {
+	background-color: transparent;
+}
+
+#wwTakeoverLink
+{
+    width: 286px;
+    height: 300px; /* overall height of this, including margins etc is currently 302px max or it will affect the height of .wwFlashContent panel as a whole */
+    float: right;
+    /*border: 1px solid red;*/
+    margin-right:0px; /* note that this positioning should take into account both the presence and absence of page ads */
+    cursor:pointer;
+	position: absolute;
+}
+
+#builder_container {
+	padding: 5px;
+}
