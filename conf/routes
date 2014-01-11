@@ -2,11 +2,11 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-GET     /                           controllers.MainController.index()
-GET     /missions                   controllers.MainController.missions()
-GET		/map						controllers.MainController.map()
-GET		/mapp2p						controllers.MainController.mapP2P()
-GET		/mission/1					controllers.MainController.mission1()
+GET     /:color                     		controllers.MainController.index(color)
+GET     /missions/:color                   	controllers.MainController.missions(color)
+GET		/map/:color							controllers.MainController.map(color)
+GET		/mapp2p/:color						controllers.MainController.mapP2P(color)
+GET		/mission/1/:color					controllers.MainController.mission1(color)
 
 
 # Map static resources from the /public folder to the /assets URL path

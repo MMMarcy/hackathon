@@ -1,6 +1,6 @@
-@(message: String)
+@(color: String)
 
-@main("Welcome to Play Framework") {
+@main(color) {
 <div class="container">
 
 	<div class="row">
@@ -43,7 +43,7 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li>
-					<a href="@routes.MainController.missions()"><span class="icon" id="mission"></span>Missions</a>
+					<a href="@routes.MainController.missions(color)"><span class="icon" id="mission"></span>Missions</a>
 				</li>
 				<li class="divider"><hr/></li>
 				<li>
@@ -77,7 +77,7 @@
 		<!-- /.navbar-collapse -->
 	</nav>
 
-	<a href="@routes.MainController.mission1()">
+	<a href="@routes.MainController.mission1(color)">
 		<div id="mission-plc">
 			<h3>Current active mission</h3>
 			<p>Eat breakfast</p>
