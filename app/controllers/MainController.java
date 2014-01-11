@@ -10,7 +10,7 @@ public class MainController extends Controller {
     }
 
     public static Result missions(){
-    	return ok(views.html.missions.render("Hello from Java"));
+    	return ok(views.html.missions.render());
     }
     
 }
