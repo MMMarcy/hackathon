@@ -11,7 +11,7 @@ function success(position) {
   var coords = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
   
   var options = {
-    zoom: 12,
+    zoom: 11,
     center: coords,
     mapTypeControl: false,
     navigationControlOptions: {
@@ -22,24 +22,19 @@ function success(position) {
   var map = new google.maps.Map(document.getElementById("mapcontainer"), options);
 
   var marker = new google.maps.Marker({
-      position: coords,
       map: map,
-      title:"You are here!"
+      title:"You are here!",
+      position: coords
   });
 
+  var arrival = new google.maps.LatLng(57.799833, 11.99735);
 
-  var circleOptions = {
-      strokeColor: '#FF0000',
-      strokeOpacity: 0.8,
-      strokeWeight: 0,
-      fillColor: '#FF0000',
-      fillOpacity: 0.35,
+  var arrive = new google.maps.Marker({
       map: map,
-      center: coords,
-      radius: 1000,
-  };
-
-  circle = new google.maps.Circle(circleOptions);
+      animation: google.maps.Animation.DROP,
+      title: "Get here",
+      position: arrival
+  });
 
 
 
@@ -56,7 +51,7 @@ if (navigator.geolocation) {
   <div class="container">
     <div class="row">
       <div class="col-xs-3">GOAL:</div>
-      <div class="col-xs-9">Walk outside the circle</div>
+      <div class="col-xs-9">Go from point A to point B</div>
     </div>
     <div class="row">
       <div class="col-xs-3">TIME REMAINING:</div>

@@ -5,6 +5,7 @@
 GET     /                           controllers.MainController.index()
 GET     /missions                   controllers.MainController.missions()
 GET		/map						controllers.MainController.map()
+GET		/mapp2p						controllers.MainController.mapP2P()
 GET		/mission/1					controllers.MainController.mission1()
 
 

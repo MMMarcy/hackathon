@@ -17,6 +17,10 @@ public class MainController extends Controller {
     	return ok(views.html.map.render());
     }
 
+    public static Result mapP2P(){
+    	return ok(views.html.mapP2P.render());
+    }
+
     public static Result mission1(){
     	return ok(views.html.mission1.render());
     }
