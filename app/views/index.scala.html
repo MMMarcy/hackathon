@@ -42,19 +42,34 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active">
-					<a href="">Missions</a>
-				</li>
-				<li class="divider"></li>
 				<li>
-					<a href="#">Facebook</a>
+					<a href="#"><span class="icon" id="mission"></span>Missions</a>
+				</li>
+				<li class="divider"><hr/></li>
+				<li>
+					<a href="#">
+						<span class="icon" id="facebook"></span>
+						Facebook
+					</a>
 				</li>
 				<li>
-					<a href="#">Twitter</a>
+					<a href="#">
+						<span class="icon" id="twitter"></span>
+						Twitter
+					</a>
 				</li>
-				<li class="divider"></li>
 				<li>
-					<a href="">Settings</a>
+					<a href="#">
+						<span class="icon" id="gplus"></span>
+						Google +
+					</a>
+				</li>
+				<li class="divider"><hr/></li>
+				<li>
+					<a href="">
+						<span id="setting" class="icon"></span>
+						Settings
+					</a>
 				</li>
 
 			</ul>
@@ -62,10 +77,24 @@
 		<!-- /.navbar-collapse -->
 	</nav>
 
+	<a href="@routes.MainController.mission1()">
+		<div id="mission-plc">
+			<h3>Current active mission</h3>
+			<p>Eat breakfast</p>
+		</div>
+	</a>
+
 	<script type="text/javascript">
 		const canvas = $("#pic-frame");
 		const pageHeight = $(document).height();
+		const pageWidth = $(document).width();
 		canvas.css("height", (pageHeight-110)+"px");
+
+
+		const mission = $("#mission-plc");
+		mission.css("top", pageHeight- 200);
+		mission.css("left", (pageWidth-mission.width())/2);
+
 	</script>
 
 </div>
