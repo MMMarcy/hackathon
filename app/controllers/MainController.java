@@ -16,4 +16,8 @@ public class MainController extends Controller {
     public static Result map(){
     	return ok(views.html.map.render());
     }
+
+    public static Result mission1(){
+    	return ok(views.html.mission1.render());
+    }
 }
