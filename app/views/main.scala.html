@@ -112,6 +112,12 @@
     const container = $(".container");
     container.css("height", ($(document).height()-51)+"px");
     container.css("max-height", ($(document).height()-51)+"px");
+
+    try{
+        pushup_div.css("height", $(".container").height()-35+"px");
+    } catch (e){
+        console.log(e)
+    }
     </script>
 </body>
 </html>

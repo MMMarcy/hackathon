@@ -30,4 +30,13 @@ public class MainController extends Controller {
     public static Result settings(String color){
     	return ok(views.html.settings.render(color));
     }
+
+    public static Result pushups(String color){
+        return ok(views.html.pushups.render(color));
+    }
+
+    public static Result story(String color){
+        return ok(views.html.story.render(color));
+    }
+
 }

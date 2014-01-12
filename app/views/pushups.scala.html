@@ -1,0 +1,30 @@
+@(color: String)
+
+@main(color) {
+<div class="container">
+	<div class="btn btn-danger pushup-container" >
+		<span class="pushup">15</span>
+	</div>
+</div>
+
+<script type="text/javascript">
+
+	const pushup_div = $(".pushup");
+
+	
+
+	
+	pushup_div.bind("click",pushUp);
+	function pushUp(){
+		var pushupsToGo = parseInt(pushup_div.text());
+		console.log(pushupsToGo)
+		if(pushupsToGo > 0){
+			pushup_div.text(pushupsToGo-1);
+		} else {
+			pushup_div.unbind("click");
+		}
+	};
+
+
+</script>
+}
