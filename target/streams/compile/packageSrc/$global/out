@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mPackaging /home/marcello/Projects/hackhathon/target/scala-2.10/hackhathon_2.10-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	openshift.conf[0m
+[0m[[0mdebug[0m] [0m	  /home/marcello/Projects/hackhathon/conf/openshift.conf[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /home/marcello/Projects/hackhathon/conf/application.conf[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  /home/marcello/Projects/hackhathon/conf/routes[0m
+[0m[[0mdebug[0m] [0m	controllers/MainController.java[0m
+[0m[[0mdebug[0m] [0m	  /home/marcello/Projects/hackhathon/app/controllers/MainController.java[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

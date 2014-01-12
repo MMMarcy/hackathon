@@ -1,0 +1,25 @@
+[0m[[0mdebug[0m] [0mCopy play resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/js/bootstrap.js,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/js/bootstrap.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/js/bootstrap.min.js,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/js/bootstrap.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/css/bootstrap-theme.css,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/css/bootstrap-theme.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/css/bootstrap.min.css,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/css/bootstrap.min.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/css/bootstrap.css,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/css/bootstrap.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/css/bootstrap-theme.min.css,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/css/bootstrap-theme.min.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/fonts/glyphicons-halflings-regular.woff,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/fonts/glyphicons-halflings-regular.woff)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/fonts/glyphicons-halflings-regular.eot,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/fonts/glyphicons-halflings-regular.eot)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/fonts/glyphicons-halflings-regular.svg,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/fonts/glyphicons-halflings-regular.svg)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/fonts/glyphicons-halflings-regular.ttf,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/fonts/glyphicons-halflings-regular.ttf)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/images/favicon.png,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/images/favicon.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/images/circle.png,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/images/circle.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/images/check-mark.png,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/images/check-mark.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/images/avatar.png,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/images/avatar.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/images/gear.png,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/images/gear.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/images/twitter.png,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/images/twitter.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/images/add-image-256.png,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/images/add-image-256.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/images/google-plus.png,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/images/google-plus.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/images/story.png,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/images/story.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/public/images/facebook.png,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/images/facebook.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/target/scala-2.10/resource_managed/main/public/stylesheets/home.css,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/stylesheets/home.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/target/scala-2.10/resource_managed/main/public/stylesheets/home.min.css,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/stylesheets/home.min.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/target/scala-2.10/resource_managed/main/public/javascripts/index.js,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/javascripts/index.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/target/scala-2.10/resource_managed/main/public/javascripts/index.min.js,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/javascripts/index.min.js)[0m

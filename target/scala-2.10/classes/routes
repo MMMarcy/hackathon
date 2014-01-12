@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET     /                     				controllers.MainController.index(color = "green")
+GET     /:color                     		controllers.MainController.index(color)
+GET     /missions/:color                   	controllers.MainController.missions(color)
+GET		/map/:color							controllers.MainController.map(color)
+GET		/mapp2p/:color						controllers.MainController.mapP2P(color)
+GET		/mission/1/:color					controllers.MainController.mission1(color)
+GET		/settings/:color 					controllers.MainController.settings(color)
+GET		/pushups/:color 					controllers.MainController.pushups(color)
+GET		/story/:color						controllers.MainController.story(color)
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+GET     /webjars/*file              controllers.WebJarAssets.at(file)

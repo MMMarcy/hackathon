@@ -1,0 +1,19 @@
+#pic-frame{display:block;width:100%;height:380px;background-image:url(/assets/images/avatar.png);background-position:top;background-repeat:no-repeat}
+#mission-plc{position:fixed;text-align:center;color:white;background-color:rgba(0,0,0,0.3);padding:5px;font-size:16px;border-radius:5px}
+.box{color:black;margin:20px 10px 20px 10px;background-color:rgba(0,0,0,0.3);padding:5px;font-size:16px;border-radius:5px}
+body{background:#7ace61;background:-moz-radial-gradient(center, ellipse cover, #7ace61 0, #97cc80 38%, #78ce6d 60%, #63b747 85%);background:-webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0, #7ace61), color-stop(38%, #97cc80), color-stop(60%, #78ce6d), color-stop(85%, #63b747));background:-webkit-radial-gradient(center, ellipse cover, #7ace61 0, #97cc80 38%, #78ce6d 60%, #63b747 85%);background:-o-radial-gradient(center, ellipse cover, #7ace61 0, #97cc80 38%, #78ce6d 60%, #63b747 85%);background:-ms-radial-gradient(center, ellipse cover, #7ace61 0, #97cc80 38%, #78ce6d 60%, #63b747 85%);background:radial-gradient(ellipse at center, #7ace61 0, #97cc80 38%, #78ce6d 60%, #63b747 85%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7ace61', endColorstr='#63b747', GradientType=1);}
+#level{display:block;width:50px;height:50px;background-image:url(/assets/images/circle.png);background-size:contain;font-size:22pt;line-height:38pt}
+.icon{display:inline-block;width:20px;height:20px;background-size:contain;margin-bottom:-5px}
+#mission{background-image:url(/assets/images/check-mark.png)}
+#facebook{background-image:url(/assets/images/facebook.png)}
+#twitter{background-image:url(/assets/images/twitter.png)}
+#gplus{background-image:url(/assets/images/google-plus.png)}
+#setting{background-image:url(/assets/images/gear.png)}
+#story{background-image:url(/assets/images/story.png)}
+.indication{position:fixed;bottom:70px;width:100%;height:70px}
+.panel-body .row{height:60px}
+.container{overflow-y:auto;padding-bottom:10px}
+.glyphicon{margin:0px 5px 5px 0px}
+.pushup-container{margin:10px 0 10px 0;display:block;width:100%;font-size:96pt;text-align:center}.pushup-container .pushup{width:100%;text-align:center;display:table-cell;vertical-align:middle}
+.justified{text-align:justify}
+.underlined{border-bottom:1px solid rgba(0,0,0,0.7)}

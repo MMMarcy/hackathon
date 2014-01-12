@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/target/scala-2.10/resource_managed/main/public/stylesheets/home.css,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/stylesheets/home.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/target/scala-2.10/resource_managed/main/public/stylesheets/home.min.css,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/stylesheets/home.min.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/target/scala-2.10/resource_managed/main/public/javascripts/index.js,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/javascripts/index.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/target/scala-2.10/resource_managed/main/public/javascripts/index.min.js,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/public/javascripts/index.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/conf/openshift.conf,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/openshift.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/conf/application.conf,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcello/Projects/hackhathon/conf/routes,/home/marcello/Projects/hackhathon/target/scala-2.10/classes/routes)[0m
