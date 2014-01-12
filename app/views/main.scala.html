@@ -1,5 +1,4 @@
 @(color: String)(content: Html)
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,9 +9,8 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src='@routes.Assets.at("js/bootstrap.min.js")'></script>
     <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIo1FKI9xqFQl7M7dUR_Ds7ZDXt3RrWT4&sensor=true">
-    </script>
-    
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIo1FKI9xqFQl7M7dUR_Ds7ZDXt3RrWT4&sensor=true"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -58,7 +56,6 @@
 </head>
 <body>
     @content
-
     <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -68,16 +65,27 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Time Aliens</a>
+            <a class="navbar-brand" href="@routes.MainController.index(color)">Time Aliens</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="@routes.MainController.missions(color)"><span class="icon" id="mission"></span>Missions</a>
+                    <a href="@routes.MainController.missions(color)">
+                        <span class="icon" id="mission"></span>
+                        Missions
+                    </a>
                 </li>
-                <li class="divider"><hr/></li>
+                <li>
+                    <a href="@routes.MainController.story(color)">
+                        <span class="icon" id="story"></span>
+                        Story
+                    </a>
+                </li>
+                <li class="divider">
+                    <hr/>
+                </li>
                 <li>
                     <a href="#">
                         <span class="icon" id="facebook"></span>
@@ -96,7 +104,9 @@
                         Google +
                     </a>
                 </li>
-                <li class="divider"><hr/></li>
+                <li class="divider">
+                    <hr/>
+                </li>
                 <li>
                     <a href="@routes.MainController.settings(color)">
                         <span id="setting" class="icon"></span>
@@ -106,8 +116,7 @@
 
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
-    </nav>
+        <!-- /.navbar-collapse --> </nav>
     <script type="text/javascript">
     const container = $(".container");
     container.css("height", ($(document).height()-51)+"px");
